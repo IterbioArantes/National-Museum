@@ -31,6 +31,7 @@ ul a{
     color: var(--color-menu);
     text-decoration: none;
     padding-bottom: 4px;
+    text-transform: uppercase;
 }
 
 ul a:hover{
