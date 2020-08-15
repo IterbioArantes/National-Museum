@@ -1,5 +1,8 @@
 :root{
     --color-menu:#af670a ;
+    --background-page: #f4f2ec; 
+    --link-hover: #227115;
+    --link-hover-border: #535858;
     font-size: 75%;
 }
 
@@ -11,16 +14,6 @@
 
 body{
     font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
-body,html{
-    height: 100vh;
-}
-
-#container{
-    width: 90vw;
-    max-width: 699px;
-    border: 1px solid red;
+    background: url(../images/fundo.png) repeat-x;
+    background-color: var(--background-page);
 }
