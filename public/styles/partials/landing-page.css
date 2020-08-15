@@ -1,0 +1,20 @@
+#menu{
+    background: url(../../images/fundo.png);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    display: inline;
+}
+
+a{ 
+    color: var(--color-menu);
+    text-decoration: none;
+    line-height: 0.7rem;
+}

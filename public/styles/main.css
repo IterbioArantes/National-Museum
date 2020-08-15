@@ -11,4 +11,16 @@
 
 body{
     font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+body,html{
+    height: 100vh;
+}
+
+#container{
+    width: 90vw;
+    max-width: 699px;
+    border: 1px solid red;
 }
