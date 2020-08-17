@@ -1,8 +1,13 @@
 :root{
     --color-menu:#af670a ;
-    --background-page: #f4f2ec; 
+    --background-page: #f4f2ec;
+    --background-aside: #ebe7dd;
+    --background-aside-form: #cdc8b1;
+    --color-aside-titles: #86521a;
+    --background-aside-button: #9b9271; 
     --link-hover: #227115;
     --link-hover-border: #535858;
+    --color-white:#fff;
     font-size: 75%;
 }
 
