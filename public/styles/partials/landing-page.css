@@ -7,8 +7,16 @@
 
 a{
     text-decoration: none;
+    color: var(--color-links);
 }
 
+a:hover{
+    color: var(--color-titles-and-linkh);
+}
+
+h4{
+    text-transform: uppercase;
+}
 /* End General Confg */
 
 /* Header */
@@ -29,23 +37,21 @@ header{
     display: flex;
 }
 
-ul{
+nav ul{
     list-style: none;
 }
 
-li{
+nav ul li{
     display: inline;
     margin-right: 25px;
 }
 
-ul a{ 
-    color: var(--color-menu);
+nav ul a{ 
     padding-bottom: 4px;
     text-transform: uppercase;
 }
 
-ul a:hover{
-    color: var(--link-hover);
+nav ul a:hover{
     border-bottom: 1px solid var(--link-hover-border);
 }
 
@@ -54,6 +60,11 @@ ul a:hover{
 /* Main */
 main > img{
     float: left;
+}
+
+main section#cover, main section#posts{
+    float: left;
+    width: 710px;
 }
 
 main aside{
@@ -108,7 +119,6 @@ aside form button{
 }
 
 #gallery h4{
-    text-transform: uppercase;
     color: var(--color-aside-titles);
 }
 
@@ -121,7 +131,35 @@ aside form button{
     justify-content: center;
     background: url(../../images/fundo-foto.png) no-repeat;
     margin-left: 15px;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
+}
+
+#posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#posts article h4{
+    color: var(--color-titles-and-linkh);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.widht-article{
+    width: 340px;
+}
+
+article ul{
+    padding-left: 16px;
+}
+
+article ul li{
+    margin-top: 5px;
+}
+
+article.widht-article p{
+    text-align: justify;
+    margin-bottom: 10px;
 }
 /* End Main */
