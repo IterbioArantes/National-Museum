@@ -46,8 +46,9 @@ nav ul li{
     margin-right: 25px;
 }
 
-nav ul a{ 
+header nav ul a{ 
     padding-bottom: 4px;
+    text-transform: uppercase;
 }
 
 nav ul a:hover{
@@ -162,3 +163,20 @@ article.widht-article p{
     margin-bottom: 10px;
 }
 /* End Main */
+
+/* footer */
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+footer nav{
+    margin: 20px 0px;
+}
+
+footer nav ul a:hover{
+    border:none;
+}
+/* End footer */
